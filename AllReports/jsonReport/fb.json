@@ -1,0 +1,183 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-11T16:52:18.164Z",
+        "line": 4,
+        "name": "To validate add to cart button",
+        "description": "",
+        "id": "to-check-whether-add-to-cart-is-working-properly-or-not;to-validate-add-to-cart-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16216766800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to Enter Amazon Website throughh Chrome Browser",
+            "match": {
+              "location": "AmazonDef.user_have_to_Enter_Amazon_Website_throughh_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2665911300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to click signin button",
+            "match": {
+              "location": "AmazonDef.user_have_to_click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 939888600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to pass \"\u003cemail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                }
+              ],
+              "location": "AmazonDef.user_have_to_pass(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1381854700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click Continue button",
+            "match": {
+              "location": "AmazonDef.click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267263800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to send \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 18
+                }
+              ],
+              "location": "AmazonDef.user_have_to_send(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3304417900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click sigin button",
+            "match": {
+              "location": "AmazonDef.click_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8585358500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to click in Search tab",
+            "match": {
+              "location": "AmazonDef.user_have_to_click_in_Search_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310126000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "In search tab Enter Mobiles",
+            "match": {
+              "location": "AmazonDef.in_search_tab_Enter_Mobiles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8546524500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Search button",
+            "match": {
+              "location": "AmazonDef.click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735203300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click any product in new page",
+            "match": {
+              "location": "AmazonDef.click_any_product_in_new_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class\u003d\u0027a-accordion-inner accordion-row-content\u0027]//parent::div//following-sibling::div//div[@class\u003d\u0027a-button-stack\u0027])[4]\"}\n  (Session info: chrome\u003d103.0.5060.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DILIP\u0027, ip: \u0027192.168.220.237\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\PC721~1\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f1254291eaf384541046a5c400c89a0d\n*** Element info: {Using\u003dxpath, value\u003d(//div[@class\u003d\u0027a-accordion-inner accordion-row-content\u0027]//parent::div//following-sibling::div//div[@class\u003d\u0027a-button-stack\u0027])[4]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat org.base.BaseClass.btnclick(BaseClass.java:54)\r\n\tat org.stepDefinition.AmazonDef.click_add_to_cart_button(AmazonDef.java:91)\r\n\tat ✽.Click add to cart button(file:src/test/resources/featureFile/Amazon.feature:15)\r\n",
+              "duration": 5207914400,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Click add to cart button",
+            "match": {
+              "location": "AmazonDef.click_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Amazon"
+          }
+        ]
+      }
+    ],
+    "name": "To check whether add to cart is working properly or not",
+    "description": "",
+    "id": "to-check-whether-add-to-cart-is-working-properly-or-not",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFile/Amazon.feature",
+    "tags": [
+      {
+        "name": "@Amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

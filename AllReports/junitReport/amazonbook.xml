@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.37871">
+<testcase classname="To check whether add to cart is working properly or not" name="To validate add to cart button" time="47.37871">
+<system-out><![CDATA[Given User have to Enter Amazon Website throughh Chrome Browser.............passed
+And User have to click signin button........................................passed
+And User have to pass "<email>".............................................passed
+And click Continue button...................................................passed
+And User have to send "<password>"..........................................passed
+And click sigin button......................................................passed
+And User have to click in Search tab........................................passed
+And In search tab Enter Mobiles.............................................passed
+And Click Search button.....................................................passed
+And Click any product in new page...........................................passed
+Then Click add to cart button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
